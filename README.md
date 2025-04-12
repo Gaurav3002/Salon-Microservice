@@ -1,2 +1,30 @@
-# Salon-Microservice
-This is a RESTful microservice developed using Java, Spring Boot, and MySQL, designed to handle core functionalities of a salon booking platform. The microservice enables users to book appointments for different salon service categories and allows salon businesses to register as partners and manage their offerings.
+# 💇‍♂️ Salon Booking Microservice
+
+A REST API for managing salon appointments and onboarding salon partners. Built using **Java**, **Spring Boot**, and **MySQL**.
+
+## 🧩 Features
+
+- User registration and login
+- Service category browsing
+- Appointment booking
+- Salon partner onboarding
+- Service management by salons
+
+## 🛠 Tech Stack
+
+- Java 17
+- Spring Boot
+- Spring Security (JWT)
+- MySQL
+- JPA (Hibernate)
+- Swagger / OpenAPI
+
+## 📦 How to Run
+
+1. Clone the repository
+2. Configure `application.properties` with your MySQL DB
+3. Run the Spring Boot application
+4. Access Swagger UI at `http://localhost:8080/swagger-ui.html`
+
+---
+
